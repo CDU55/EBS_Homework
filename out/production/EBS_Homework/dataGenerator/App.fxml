@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dataGenerator.AppController">
+   <children>
+      <Button layoutX="62.0" layoutY="65.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#chooseInputPath" prefHeight="44.0" prefWidth="174.0" text="Choose Input File" AnchorPane.bottomAnchor="313.0" AnchorPane.leftAnchor="62.0" AnchorPane.rightAnchor="364.0" AnchorPane.topAnchor="65.0" />
+      <Button layoutX="369.0" layoutY="65.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#chooseOutputPath" prefHeight="39.0" prefWidth="137.0" text="Choose Output File" AnchorPane.bottomAnchor="313.0" AnchorPane.leftAnchor="364.0" AnchorPane.rightAnchor="62.0" AnchorPane.topAnchor="65.0" />
+      <Button layoutX="232.0" layoutY="128.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#generate" prefHeight="44.0" prefWidth="137.0" text="Generate" AnchorPane.bottomAnchor="250.0" AnchorPane.leftAnchor="232.0" AnchorPane.rightAnchor="231.0" AnchorPane.topAnchor="128.0" />
+      <TextArea fx:id="console" layoutX="88.0" layoutY="189.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="426.0" AnchorPane.bottomAnchor="33.0" AnchorPane.leftAnchor="88.0" AnchorPane.rightAnchor="86.0" AnchorPane.topAnchor="189.0">
+         <font>
+            <Font name="Comic Sans MS" size="16.0" />
+         </font></TextArea>
+   </children>
+</AnchorPane>
